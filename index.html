@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House of Pain Jailbreak</title>
+<style type="text/css">
+
+/* we want to use roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	margin: 40px auto;
+	max-width: 570px;
+	line-height: 1.6;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #191919;
+	padding: 0 10px;
+	font-family: "Roboto";
+}
+
+h1,h2,h3 {
+	line-height: 1.2;
+	text-align: center;
+}
+
+h4 {
+	line-height: 1;
+	margin-top:13px;
+	margin-bottom:13px;
+	text-align: center;
+}
+
+.blue {
+	color: #7777FF;
+	font-weight: bold;
+}
+
+.red {
+	color: #FF7777;
+	font-weight: bold;
+}
+
+/* we give the illusion of lists being centered by
+just making their width smaller and margins larger */
+.center-list {
+	width: 80%;
+	margin: auto;
+}
+
+/* paragraphs should start with an indent */
+p {
+	text-indent: 30px;
+}
+
+/* make images wrap properly on mobile */
+.flex-container {
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+	max-width: 535px;
+}
+
+/* make images scale on mobile */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* table of contents on non-mobile */
+@media (min-width: 576px) {
+	#toc_container {
+		background: #111111 none repeat scroll 0 0;
+		border: 1px solid #aaa;
+		display: table;
+		font-size: 95%;
+		margin-bottom: 1em;
+		padding: 20px;
+		width: 530px;
+	}
+}
+
+/* table of contents on mobile */
+@media (max-width: 576px) {
+	#toc_container {
+		background: #111111 none repeat scroll 0 0;
+		border: 1px solid #aaa;
+		display: table;
+		font-size: 95%;
+		margin-bottom: 1em;
+		padding: 0px!important;
+	}
+}
+
+/* title for TOC */
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+/* no dots for the bullets in the TOC */
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+/* on mobile, lower the TOC padding */
+@media (max-width: 576px) {
+	.toc_list {
+		padding-inline-start: 5px!important;
+		padding-inline-end: 5px!important;
+	}
+}
+
+/* unvisited link color */
+a:link {
+  color: #AAFFAA;
+}
+
+/* visited link color */
+a:visited {
+  color: #AAFFAA;
+}
+
+/* mouse over link color */
+a:hover {
+  color: #FFFFFF;
+}
+
+/* selected link color */
+a:active {
+  color: #00FF55;
+}
+
+</style>
+
+<!-- Favicon tags -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#808080">
+<meta name="msapplication-TileColor" content="#808080">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Meta Info tags -->
+<meta name="author" content="hopjb.com">
+<meta name="description" content="The original TF2 jailbreak server which started it at all in 2012 is back! Our server is designed with roleplay and player feedback in mind to provide a fun and original experience."/>
+
+<!-- Open Graph tags -->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="House of Pain Jailbreak"/>
+<meta property="og:url" content="https://hopjb.com"/>
+<meta property="og:image" content="https://hopjb.com/tnhopjblogo.png"/>
+<meta property="og:description" content="The original TF2 jailbreak server which started it at all in 2012 is back! Our server is designed with roleplay and player feedback in mind to provide a fun and original experience."/>
+<meta property="og:site_name" content="hopjb.com">
+
+<!-- Twitter Card tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="House of Pain Jailbreak">
+<meta name="twitter:url" content="https://hopjb.com">
+<meta name="twitter:description" content="The original TF2 jailbreak server which started it at all in 2012 is back! Our server is designed with roleplay and player feedback in mind to provide a fun and original experience.">
+<meta name="twitter:image:src" content="https://hopjb.com/tnhopjblogo.png">
+
+</head>
+
+<body>
+<center>
+<img src="tnhopjblogo.png">
+<p>
+<ul class="flex-container">
+<li><a href="https://discord.gg/cgHEwpw"><img src="discord.png"></a></li>
+<li><a href="https://steamcommunity.com/groups/hoptf"><img src="steam.png"></a></li>
+<li><a href="steam://connect/37.187.20.216:27015"><img src="connect.png"></a></li></ul>
+</p>
+</center>
+
+<div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+	<li><a href="#General_Rules">General Rules</a></li>
+	<li><a href="#Jailbreak_Rules">Jailbreak Rules</a>
+		<ul>
+		<li><a href="#The_Basics">The Basics</a>
+			<ul>
+			<li><a href="#Things_That_Count_As_Rebelling">Things That Count As Rebelling</a>
+				<ul>
+				<li><a href="#Exceptions">Exceptions</a></li>
+				<li><a href="#Notes">Notes</a></li>
+			</ul></li>
+			<li><a href="#Last_Request_Rules">Last Request Rules</a></li>
+			<li><a href="#Other_Terms_and_Order_Info">Other Terms and Order Info</a></li>
+			</ul>
+		<li><a href="#Rules_For_All">Rules For All</a></li>
+		<li><a href="#CT_Rules">CT Rules</a></li>
+	</ul>
+</li>
+</ul>
+</div>
+
+<header><h1 id="General_Rules">General Rules</h1></header>
+
+<ul class="center-list">
+<li>No discrimination.
+<ul>
+<li>This includes any use of slurs.</li>
+</ul></li>
+<li>Show basic respect.</li>
+<li>No harassment.</li>
+<li>No explicit or NSFW content.</li>
+<li>No hacking on the server.</li>
+<li>No exploiting map bugs on the server.</li>
+<li>Do not spam.
+<ul>
+<li>This includes trading and advertising.</li>
+</ul></li>
+</ul>
+
+<header><h1 id="Jailbreak_Rules">Jailbreak Rules</h1></header>
+<header><h2 id="The_Basics">The Basics</h2></header>
+<p>Jailbreak is a roleplay based gamemode, which means there are a lot of rules to adhere to, however the gamemode specific rules you can be punished for exist mostly for the <span class="blue">Blue Team</span> besides the few listed under <strong>"Rules for All"</strong>. If you are new to the mode or sever we recommend playing on the <span class="red">Red Team</span> and reading up to the <strong>"CT Rules"</strong> section first to get a feel for how we do things. Don't be afraid to ask questions about these rules on the server!</p>
+
+<p>The point of this game is for the <span class="blue">Blue Team</span> (also referred to as <span class="blue">Guards</span> or <span class="blue">CTs</span>) who spawn with ammo to give orders over microphone to the <span class="red">Red Team</span> (also referred to as <span class="red">Prisoners</span> or <span class="red">Ts</span>) who spawn without ammo. Any <span class="red">Ts</span> not following the orders given by the <span class="blue">CTs</span> agreed upon by the <span class="blue">CTs</span> to give orders will be considered rebellers who must be <strong>killed on sight</strong> (KOS for short) by the <span class="blue">CTs</span>.</p>
+
+<p><span class="blue">CTs</span> cannot attack a <span class="red">T</span> for anything other than rebelling or valid activity purposes else it will be considered freehitting, freekilling if the attack was fatal; both are against the rules. If you have less health due to freehitting the <span class="blue">CTs</span> must heal you if you ask for healing.</p>
+
+<p>You are free to rebel and follow orders as you like as a <span class="red">T</span>. Every map has at least one secret route into the armoury which you can use to gain ammo as a <span class="red">T</span>. Many maps also have ammo hidden in secret spots and secret routes to aide rebellers. <span class="blue">CTs</span> also drop ammo upon death so keep that in mind as a <span class="blue">CT</span> and use that to your advantage as a <span class="red">T</span>.</p>
+
+<header><h3 id="Things_That_Count_As_Rebelling">Things That Count As Rebelling, Unless Orders Given Involve Them</h3></header>
+
+<ul class="center-list">
+<li>Disobeying orders.
+<ul>
+<li>You may disobey orders which are invalid or against the <span class="blue">CT</span> rules.</li>
+<li>For other info on orders see the <strong>"Other terms and order info"</strong> section.</li>
+</ul>
+<li>Detouring or delaying your following of orders by a considerable amount.</li>
+<li>Having weapons that require ammo out.</li>
+<li>Attacking a <span class="blue">CT</span>.
+<ul>
+<li>Unless the <span class="blue">CTs</span> you attacked walked into your melee range (baiting), in which case you may swing your weapon at them and not give chase.</li>
+</ul></li>
+</ul>
+
+<header><h4 id="Exceptions">Exceptions</h4></header>
+
+<ul class="center-list">
+<li>Collecting ammo is not rebelling by default, but orders cannot be placed against unintentionally collecting ammo.</li>
+<li>You are not considered a rebeller at the start of each round, you can only become a rebeller by your actions per round and you can't lose your rebeller status within the round once known.</li>
+<li>This list is also altered by freedays, having one innocent <span class="red">T</span> alive, or having one <span class="red">T</span> on the server. You can read about those exceptions below.</li>
+</ul>
+
+<header><h4 id="Notes">Notes</h4></header>
+
+<ul class="center-list">
+<li>If you need a repeat on an order given, simply ask for one and the <span class="blue">CTs</span> must give one for that order at least once; this is not restricted by orders given about using text chat.</li>
+<li>If no orders have been given by the time cells open then it is a freeday where you are free to roam the map and have fun as a <span class="red">T</span> while still being able to be marked as a rebel, however the freeday ends as soon as orders are given.</li>
+<li>If there is only one <span class="red">T</span> on the server then it is a freeday that must remain until someone else joins <span class="red">T</span> and the <span class="red">T</span> can have weapons that require ammo out during this freeday.</li>
+</ul>
+
+<p>The last <span class="red">T</span> alive who is also not considered a rebel (innocent) and has also made it the furthest in any played progression-based games like Obstacle Course gets a <strong>Last Request</strong> (LR for short). An LR allows whoever has it in the current round within the LR time limit at the bottom of the screen to tell the <span class="blue">CTs</span> what they must do for the next or current round, one or the other. This LR must follow the <strong>"LR Rules"</strong>.</p>
+<p>If there is at least one rebeller alive then an LR cannot be decided upon until all the rebellers are killed. The last innocent <span class="red">T</span> is not bound by orders and can only rebel by attacking a <span class="blue">CT</span> before an LR is chosen or attacking a <span class="blue">CT</span> without a reason during a same-round LR; if this happens the <span class="red">T</span> loses their LR and must be killed on sight. Once a next round LR has been agreed upon or when the LR time at the bottom of the screen runs out the <span class="blue">CTs</span> must KOS the <span class="red">T</span>, if the <span class="red">T</span> fights back when this happens they are not rebelling.</p>
+
+<h4>There is no LR command, you must type or speak out your LR.</h4>
+
+<header><h3 id="Last_Request_Rules">Last Request Rules</h3></header>
+
+<p>Your LR will be denied and you will have to choose a new one if it breaks these rules. Don't worry about these much as a <span class="red">T</span> as the <span class="blue">CTs</span> will tell you if your LR is invalid.</p>
+
+<ul class="center-list">
+<li>No LRs that involve freedays.</li>
+<li>No next-round LRs that involve activities that happened in the current round.</li>
+<li>No LRs that would make players break rules.</li>
+<li>No Hunger Games for LR.</li>
+<li>No LRs that require admins to use their commands, unless they feel like it.</li>
+<li>No LRs that change the way <span class="blue">CTs</span> give orders, unless they feel like it.</li>
+<li>No LRs that involve cosmetics.</li>
+<li>LRs must be given in English.</li>
+</ul>
+
+<header><h3 id="Other_Terms_and_Order_Info">Other Terms and Order Info</h3></header>
+
+<ul class="center-list">
+<li>"Freeze" means stay in place and don't jump, switch between crouching states after freezing or taunt.</li>
+<li>"AFK freeze" means do not control your character in any way at all. You may type in chat and use your microphone.</li>
+<li>"Freeze taunt" means performing a taunt while staying in place.</li>
+<li>"AFK taunt" means performing a taunt without moving or controlling your character.</li>
+<li>Orders are given considering a default TF2 configuration, including binds.</li>
+<li>If an order contradicts an existing order, then the new order given overrides the old one, unless the new order removes the context of the old order, where it would then overwrite it instead.</li>
+</ul>
+
+<p>For example, if <span class="red">Ts</span> are given an order to type what they want to do this round after they are given a no typing order, it would allow them to type what they want to do today but nothing else for the new order stayed within the context of the no typing order. Another example would be if a "follow me" order was given after an AFK freeze order, then the AFK freeze order is overwritten instead because the new order went outside of the AFK freeze order.</p>
+
+<ul class="center-list">
+<li>If "day" is stated after an order, then that order becomes a day which means no order can override it unless the day is cancelled via order. For example, if "Out of cell rebel day!" was given as an order and then the <span class="red">Ts</span> were told to go to the yellow line, then those who stayed inside their cells would be following orders.</li>
+<li>Orders always assume the closest example, so if an order was given to go to the red line, people heading to a further away red line would not be following orders.</li>
+<li>Sprays don't count as part of orders unless an order says otherwise.</li>
+<li>In the case of the "Simon Says" activity, someone must be stated to be Simon and Simon must state when Simon Says starts and stops.</li>
+</ul>
+
+<header><h2 id="Rules_For_All">Rules For All</h2></header>
+
+<ul class="center-list">
+<li>No ghosting, which means revealing or hinting at the location or actions of players to others when it would be unfair to do so in an activity or when dead.</li>
+<li>No activating friendly fire except in the context of a valid activity.</li>
+<li>No activating map activities which you or others don't intend to use in that moment.</li>
+<li>No delaying or camping in rooms where no-one can reach you, the armoury or vents. This includes locking <span class="blue">CTs</span> in rooms for same-round LRs once the LR time is up.</li>
+<li>No speaking over the <span class="blue">CTs</span> giving orders when dead.</li>
+<li>You must have a readable username. If your usual username isn't readable, contact the admins and we can get you a custom name on the server.</li>
+<li>If you are away, you risk being teamswitched from <span class="blue">CT</span> or kicked.</li>
+</ul>
+
+<header><h2 id="CT_Rules">CT Rules</h2></header>
+
+<ul class="center-list">
+<li><strong>No freekilling or freehitting.</strong></li>
+<li>Rebellers must be killed on sight, this does not mean you need to chase them, just provide an effort to kill them wherever you can.</li>
+<li>All <span class="blue">CTs</span> must have read all of these rules.</li>
+<li>All <span class="blue">CTs</span> must have a working, understandable microphone.</li>
+<li>There is no warden or warden command on this server, you must agree among the other <span class="blue">CTs</span> on who is giving orders and state who is giving orders once decided.
+<ul>
+<li>Multiple <span class="blue">CTs</span> can give orders at once if it's agreed upon.</li>
+<li>If you have stated that you are giving orders, and someone else is also giving orders, or you are allowing someone else to give orders, you may state that you are no longer giving orders if you wish.</li>
+</ul></li>
+<li>You must always be willing to give orders.</li>
+<li>Keep a ratio of 1:3 <span class="blue">CTs</span> to <span class="red">Ts</span>, this means for every group of 3 <span class="red">Ts</span> there can be 1 <span class="blue">CT.</span></li>
+<li>For example, 1-3 <span class="red">Ts</span> can have up to 1 <span class="blue">CT</span> while 4-6 <span class="red">Ts</span> can have up to 2 <span class="blue">CTs.</span></li>
+<li>You must give at least one repeat for an order if someone requests one.</li>
+<li>No favouritism.
+<ul>
+<li>This means no giving some <span class="red">Ts</span> different orders to other <span class="red">Ts</span> unless there was a free choice or skill based separation made by all <span class="red">Ts</span> involved such as letting them choose between 2 groups, in which you may then give different orders to each group.</li>
+<li>This also means no cell wars without letting the <span class="red">Ts</span> choose a cell first.</li>
+</ul></li>
+<li>When making <span class="red">Ts</span> take a blind choice for a non-map activity or order, the hidden choice results must be disclosed in <span class="blue">CT</span> team chat before the choice is presented.
+<ul>
+<li>You cannot present these choices when no-one else is a <span class="blue">CT</span>.</li>
+</ul></li>
+<li>No opinionated games.</li>
+<li>Make sure you don't punish players for correct answers and vice-versa in Trivia. Be ready to prove your answers in the next round if confronted about it.</li>
+<li>No giving orders that would certainly kill all <span class="red">Ts</span> who followed them.</li>
+<li>No ordering <span class="red">Ts</span> into a single option of a luck activity.</li>
+<li>You must give a countdown from at least 3 before starting a map activity.</li>
+<li>You must explain the rules of non-map activities before you start them, however if all alive <span class="red">Ts</span> know the rules to the activity already you don't need to.</li>
+<li>When enforcing a timer to beat an activity, make sure the timer is possible and adjust accordingly if it happens to not be.</li>
+<li>No keeping <span class="red">Ts</span> trapped without giving orders or without them playing an activity.</li>
+<li>No playing activities that have already been played in the current or previous round, unless during same-round LR.</li>
+<li>No activities that involve <span class="blue">CTs</span> attacking in a way that would allow easy favouritism without ghosting; activities like "Duck Hunt" aren't allowed as an example where activities like "Maze Rampage" (provided the <span class="blue">CT</span> is using melee only) are.</li>
+<li>Be aware of the info in the <strong>"Other terms and order info"</strong> section.</li>
+<li>Uphold the LR Rules.</li>
+<li>No denying valid LR.</li>
+<li>No allowing LR from known and considered rebellers.</li>
+<li>You may not kill yourself unless ordered to when a Last Request is being chosen or during same-round LR.</li>
+<li>Those freehit must be healed if they ask to be.</li>
+<li>No placing orders about unintentionally collecting ammo.</li>
+<li>All orders must be given in English.</li>
+
+</body></html>
