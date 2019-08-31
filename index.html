@@ -96,6 +96,30 @@ a:active {
   color: #00FF55;
 }
 
+/* these next three blocks are for bolding ordered lists */
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol > li {
+  margin: 0;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}
+
 </style>
 
 <!-- Favicon tags -->
@@ -191,7 +215,7 @@ a:active {
 	<li>You may rush <span class="red">Ts</span> that are delaying in the obstacle course or deathrun. If they refuse to move after 10 seconds you may shoot them. The last <span class="red">T</span> to survive may run to the end without dying, as it would be a freekill otherwise.</li>
 	<li>Some games are not timed, such as sweeper, therefore you must give a countdown/timelimit for these.</li>
 	<li>During minigames such as keep or pass, you are not allowed to kill more than 3 <span class="red">Ts</span> at a time.</li>
-	<li>Do not play the same <b>game/minigame</b> twice in a row</li>.
+	<li>Do not play the same <b>game/minigame</b> twice in a row.</li>
 	<li>During games such as <b>Obstacle Course, Death Run, Minefield</b> and similiar, the last <span class="blue">CTs</span> standing has to make it as far as every other <span class="blue">CTs</span> has, in order to get last request.</li>
 	<li>As a <span class="blue">CT</span>, you may not kill yourself during <b>Last Request</b>.</li>
 </ol>
