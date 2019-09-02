@@ -9,24 +9,24 @@
 
 body {
 	margin: 40px auto;
-	max-width: 800px;
+	max-width: 1500px;
 	line-height: 1.6;
-	font-size: 16px;
+	font-size: 14px;
 	color: #FFFFFF;
 	background-color: #191919;
 	padding: 0 10px;
 	font-family: "Roboto";
 }
 
-h1,h2,h3 {
-	line-height: 1.2;
+h1,h2{
+	line-height: 1.1;
 	text-align: center;
 }
 
-h4 {
+h3 {
+	margin-top:20px;
+	margin-bottom:10px;
 	line-height: 1;
-	margin-top:13px;
-	margin-bottom:13px;
 	text-align: center;
 }
 
@@ -120,6 +120,26 @@ ol > li:before {
   content: counter(item) ".";
 }
 
+/* clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* make columns 50% each */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* ...unless we're on mobile */
+@media screen and (max-width: 700px) {
+	.column {
+		width: 100%;
+	}
+}
+
 </style>
 
 <!-- Favicon tags -->
@@ -163,14 +183,13 @@ ol > li:before {
 </p>
 </center>
 
-<header><h1 id="General_Rules">General Rules</h1></header>
+<header>
 
-<ul class="center-list">
-<li>Show common sense and basic respect, no harassment.</li>
-<li>No explicit or NSFW content.</li>
-<li>Do not exploit map bugs or spam.</li>
-</ul></li>
-</ul>
+<header><h1 id="General_Rules">General Rules</h1></header>
+<h3>Show common sense and basic respect. No harassment. No explicit or NSFW content. Do not exploit map bugs or spam.</h3>
+
+<div class="row">
+<div class="column">
 
 <header><h1 id="Jailbreak_Rules">Jailbreak Rules</h1></header>
 <p>
@@ -199,6 +218,10 @@ ol > li:before {
 	<li>The only time crouching is AFK freezing is when you are forced by the map to remain crouched (e.g. on cell beds)</b>.</li>
 	<li>First reaction/last reaction– If a first reaction action is said, the first <span class="red">T</span> to do it dies. If a last reaction action is said, the last <span class="red">T</span> to do it dies.</li>
 </ol>
+
+</div>
+<div class="column">
+
 <header><h1 id="CT_Rules">CT Rules</h1></header>
 <ol class="center-list">
 	<li>You must have a working, good quality microphone.</li>
@@ -219,4 +242,7 @@ ol > li:before {
 	<li>During games such as <b>Obstacle Course, Death Run, Minefield</b> and similiar, the last <span class="blue">CTs</span> standing has to make it as far as every other <span class="blue">CTs</span> has, in order to get last request.</li>
 	<li>As a <span class="blue">CT</span>, you may not kill yourself during <b>Last Request</b>.</li>
 </ol>
+
+</div></div>
+
 </body></html>
